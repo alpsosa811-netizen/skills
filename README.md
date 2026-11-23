@@ -13,3 +13,14 @@ Requisitos: Node 22+, Chrome/Chromium (o `CHROME_PATH`), y opcionalmente ffmpeg.
 
 84 archivos `DESIGN.md` de [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) (licencia MIT) en `.claude/skills/awesome-design-md/`, con un `SKILL.md` propio.
 Pide por ejemplo "hazme una landing al estilo de Stripe" y Claude usará el diseño correspondiente.
+
+## graphify
+
+Skill de [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) (Apache-2.0) instalada con `graphify install --project` en `.claude/skills/graphify/`, más `CLAUDE.md`, `.claude/CLAUDE.md` y hooks en `.claude/settings.json`.
+Convierte un proyecto en un grafo de conocimiento consultable. Uso: `/graphify .`
+
+Necesita el programa `graphify` instalado (los hooks no hacen nada si falta):
+
+```bash
+uv tool install graphifyy   # o: pipx install graphifyy
+```
