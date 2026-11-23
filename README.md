@@ -24,3 +24,10 @@ Necesita el programa `graphify` instalado (los hooks no hacen nada si falta):
 ```bash
 uv tool install graphifyy   # o: pipx install graphifyy
 ```
+
+## hallmark
+
+Copia de [Nutlope/hallmark](https://github.com/Nutlope/hallmark) (v2.0.0, licencia MIT) en `.claude/skills/hallmark/`.
+Skill de diseño para páginas nuevas que parezcan diseñadas, no generadas. Uso: `/hallmark <lo que quieres>`, `/hallmark redesign <ruta>` o `/hallmark audit <ruta>`.
+
+Requisitos: Node 18+. Opcional: `npm i -g puppeteer-core` y Chrome para las revisiones en navegador, y `TOGETHER_API_KEY` para generar imágenes.
